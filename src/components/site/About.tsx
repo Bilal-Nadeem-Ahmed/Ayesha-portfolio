@@ -8,7 +8,7 @@ export function About() {
             Rooted in <em className="italic font-light">tradition</em>, reaching toward the
             contemporary.
           </h2>
-          <div className="mt-10 overflow-hidden">
+          <div className="mt-10 overflow-hidden rounded-2xl">
             <img
               src="/assets/creative-practice.jpg"
               alt="Ayesha Ahmed at work"

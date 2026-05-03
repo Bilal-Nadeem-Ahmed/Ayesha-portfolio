@@ -1,10 +1,11 @@
-import { practiceImage as practice } from "@/lib/images";
-
 export function Practice() {
   return (
     <section id="practice" className="bg-secondary/40 py-32 md:py-40">
       <div className="mx-auto grid max-w-7xl gap-16 px-6 md:grid-cols-2 md:gap-20 md:px-10">
-        <div className="reveal order-2 overflow-hidden md:order-1">
+        <div
+          id="image-container"
+          className="reveal order-2  overflow-hidden rounded-2xl  md:order-1 "
+        >
           <img
             src="/assets/creative-practice.jpg"
             alt="Calligraphy on ceramic vessel"
