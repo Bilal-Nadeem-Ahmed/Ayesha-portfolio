@@ -1,19 +1,14 @@
 import { useState } from "react";
 import { X } from "lucide-react";
-import w1 from "@/assets/work-1.jpg";
-import w2 from "@/assets/work-2.jpg";
-import w3 from "@/assets/work-3.jpg";
-import w4 from "@/assets/work-4.jpg";
-import w5 from "@/assets/work-5.jpg";
-import w6 from "@/assets/work-6.jpg";
+import { galleryImages } from "@/lib/images";
 
 const works = [
-  { src: w1, title: "Untitled I", year: "2024", span: "row-span-2" },
-  { src: w3, title: "Resonance", year: "2024", span: "" },
-  { src: w2, title: "Whisper", year: "2023", span: "" },
-  { src: w5, title: "Thuluth Study", year: "2025", span: "row-span-2" },
-  { src: w6, title: "Movement", year: "2024", span: "" },
-  { src: w4, title: "Vessel", year: "2025", span: "" },
+  { ...galleryImages[0], span: "row-span-2" },
+  { ...galleryImages[1], span: "" },
+  { ...galleryImages[2], span: "" },
+  { ...galleryImages[3], span: "row-span-2" },
+  { ...galleryImages[4], span: "" },
+  { ...galleryImages[5], span: "" },
 ];
 
 export function Works() {
@@ -31,6 +26,14 @@ export function Works() {
               <em className="italic font-light">Gallery</em>
             </h2>
           </div>
+          <a
+            href="https://handofayesha.com/"
+            target="_blank"
+            rel="noreferrer"
+            className="hidden text-xs uppercase tracking-display text-muted-foreground transition-colors hover:text-foreground md:block"
+          >
+            Shop Originals →
+          </a>
         </div>
 
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 md:auto-rows-[18rem] md:gap-6">

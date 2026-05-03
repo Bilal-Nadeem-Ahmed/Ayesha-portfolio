@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import hero from "@/assets/hero.jpg";
+import { heroImage as hero } from "@/lib/images";
 
 export function Hero() {
   const [y, setY] = useState(0);

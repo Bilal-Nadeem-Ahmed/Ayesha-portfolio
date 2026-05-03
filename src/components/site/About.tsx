@@ -1,4 +1,4 @@
-import portrait from "@/assets/portrait.jpg";
+import { portraitImage as portrait } from "@/lib/images";
 
 export function About() {
   return (

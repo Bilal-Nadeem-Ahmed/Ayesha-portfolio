@@ -1,4 +1,4 @@
-import workshop from "@/assets/workshop.jpg";
+import { workshopImage as workshop } from "@/lib/images";
 
 export function Workshops() {
   return (
