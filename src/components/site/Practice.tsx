@@ -1,4 +1,4 @@
-import practice from "@/assets/practice.jpg";
+import { practiceImage as practice } from "@/lib/images";
 
 export function Practice() {
   return (
