@@ -1,5 +1,3 @@
-import { portraitImage as portrait } from "@/lib/images";
-
 export function About() {
   return (
     <section id="about" className="mx-auto max-w-7xl px-6 py-32 md:px-10 md:py-40">
@@ -12,7 +10,7 @@ export function About() {
           </h2>
           <div className="mt-10 overflow-hidden">
             <img
-              src={portrait}
+              src="/assets/creative-practice.jpg"
               alt="Ayesha Ahmed at work"
               loading="lazy"
               width={1024}

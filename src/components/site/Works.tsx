@@ -1,15 +1,25 @@
 import { useState } from "react";
 import { X } from "lucide-react";
-import { galleryImages } from "@/lib/images";
 
-const works = [
-  { ...galleryImages[0], span: "row-span-2" },
-  { ...galleryImages[1], span: "" },
-  { ...galleryImages[2], span: "" },
-  { ...galleryImages[3], span: "row-span-2" },
-  { ...galleryImages[4], span: "" },
-  { ...galleryImages[5], span: "" },
-];
+const extensions: Record<number, string> = {
+  1: "jpg",
+  2: "jpg",
+  3: "jpg",
+  8: "JPG",
+};
+
+const works = Array.from({ length: 22 }, (_, i) => {
+  const index = i + 1;
+  const ext = extensions[index] || "jpeg";
+
+  const name = `works_${index}`;
+
+  return {
+    src: `/assets/${name}.${ext}`,
+    span: i % 5 === 0 ? "row-span-2" : "",
+    title: `Works ${index}`,
+  };
+});
 
 export function Works() {
   const [active, setActive] = useState<number | null>(null);

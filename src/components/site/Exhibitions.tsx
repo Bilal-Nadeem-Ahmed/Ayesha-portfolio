@@ -22,6 +22,13 @@ const items = [
       "Exploring the Sufi concept of Hiç (nothingness) — bridging traditional Turkish art and contemporary expression, reflecting on mindfulness, ego, and existence.",
     href: "https://yeelondon.org.uk/2025/11/04/hic-exhibition/",
   },
+  {
+    title: "The Date Project",
+    year: "2026",
+    description:
+      "An annual project that takes place during the month of Ramadan, each tin of dates is sold to raise awareness and funds for a different charity. Different artists are selected every year to design the tins.",
+    href: "https://www.instagram.com/p/DSuZAZWDRvl/?igsh=MXdjdWlucWl0anRkNQ%3D%3D",
+  },
 ];
 
 export function Exhibitions() {

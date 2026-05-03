@@ -3,7 +3,9 @@ export function Footer() {
     <footer className="border-t border-border bg-background">
       <div className="mx-auto flex max-w-7xl flex-col items-start justify-between gap-8 px-6 py-12 md:flex-row md:items-center md:px-10">
         <div>
-          <p className="font-serif text-2xl">Hand of Ayesha</p>
+          <p className="font-serif text-2xl">
+            <a href="https://handofayesha.com/">Hand of Ayesha</a>
+          </p>
           <p className="mt-1 text-xs uppercase tracking-display text-muted-foreground">
             Ayesha Ahmed — London
           </p>
