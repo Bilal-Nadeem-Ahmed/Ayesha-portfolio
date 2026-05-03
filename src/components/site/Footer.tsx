@@ -9,9 +9,34 @@ export function Footer() {
           </p>
         </div>
         <ul className="flex gap-8 text-xs uppercase tracking-display text-muted-foreground">
-          <li><a href="https://handofayesha.com/" target="_blank" rel="noreferrer" className="transition-colors hover:text-foreground">Shop</a></li>
-          <li><a href="https://www.instagram.com/handofayesha/" target="_blank" rel="noreferrer" className="transition-colors hover:text-foreground">Instagram</a></li>
-          <li><a href="mailto:hello@handofayesha.com" className="transition-colors hover:text-foreground">Email</a></li>
+          <li>
+            <a
+              href="https://handofayesha.com/"
+              target="_blank"
+              rel="noreferrer"
+              className="transition-colors hover:text-foreground"
+            >
+              Shop
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/handofayesha/"
+              target="_blank"
+              rel="noreferrer"
+              className="transition-colors hover:text-foreground"
+            >
+              Instagram
+            </a>
+          </li>
+          <li>
+            <a
+              href="mailto:handofayesha@gmail.com"
+              className="transition-colors hover:text-foreground"
+            >
+              Email
+            </a>
+          </li>
         </ul>
         <p className="text-xs text-muted-foreground">
           © {new Date().getFullYear()} Ayesha Ahmed. All rights reserved.

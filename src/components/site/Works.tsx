@@ -20,7 +20,7 @@ export function Works() {
         <div className="reveal mb-16 flex items-end justify-between">
           <div>
             <p className="mb-6 text-xs uppercase tracking-display text-muted-foreground">
-              02 — Selected Works
+              Selected Works
             </p>
             <h2 className="text-4xl md:text-5xl">
               <em className="italic font-light">Gallery</em>
@@ -53,9 +53,7 @@ export function Works() {
               <div className="absolute inset-0 bg-foreground/0 transition-colors duration-500 group-hover:bg-foreground/30" />
               <div className="absolute bottom-0 left-0 right-0 translate-y-4 p-5 text-left opacity-0 transition-all duration-500 group-hover:translate-y-0 group-hover:opacity-100">
                 <p className="font-serif text-xl text-background">{w.title}</p>
-                <p className="text-xs uppercase tracking-display text-background/70">
-                  {w.year}
-                </p>
+                <p className="text-xs uppercase tracking-display text-background/70">{w.year}</p>
               </div>
             </button>
           ))}

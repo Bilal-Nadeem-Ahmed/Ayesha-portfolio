@@ -24,14 +24,12 @@ export function Navbar() {
   return (
     <header
       className={`fixed inset-x-0 top-0 z-50 transition-all duration-500 ${
-        scrolled
-          ? "bg-background/85 backdrop-blur-md border-b border-border"
-          : "bg-transparent"
+        scrolled ? "bg-background/85 backdrop-blur-md border-b border-border" : "bg-transparent"
       }`}
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 md:px-10">
         <a href="#top" className="font-serif text-xl tracking-wide">
-          Hand of Ayesha
+          Ayesha Ahmed
         </a>
         <ul className="hidden items-center gap-10 md:flex">
           {links.map((l) => (
@@ -47,11 +45,7 @@ export function Navbar() {
         </ul>
         <div className="flex items-center gap-6">
           <ThemeToggle />
-          <button
-            onClick={() => setOpen((v) => !v)}
-            className="md:hidden"
-            aria-label="Toggle menu"
-          >
+          <button onClick={() => setOpen((v) => !v)} className="md:hidden" aria-label="Toggle menu">
             {open ? <X size={20} /> : <Menu size={20} />}
           </button>
         </div>
