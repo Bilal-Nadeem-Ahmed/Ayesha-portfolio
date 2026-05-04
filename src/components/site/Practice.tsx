@@ -7,7 +7,7 @@ export function Practice() {
           className="reveal order-2  overflow-hidden rounded-2xl  md:order-1 "
         >
           <img
-            src="/assets/creative-practice.jpg"
+            src="/assets/creative.jpeg"
             alt="Calligraphy on ceramic vessel"
             loading="lazy"
             className="aspect-[4/5] w-full object-cover transition-transform duration-[1200ms] hover:scale-105"
@@ -18,17 +18,20 @@ export function Practice() {
             Creative Practice
           </p>
           <h2 className="text-4xl md:text-5xl">
-            From paper to <em className="italic font-light">three dimensions.</em>
+            From paper to{" "}
+            <em className="italic font-light">three dimensions.</em>
           </h2>
           <div className="mt-10 space-y-6 text-base leading-relaxed text-muted-foreground md:text-lg">
             <p>
-              Ayesha's current practice focuses on studying traditional Islamic calligraphy,
-              specifically the <span className="text-foreground">Thuluth script</span> in the
+              Ayesha's current practice focuses on studying traditional Islamic
+              calligraphy, specifically the{" "}
+              <span className="text-foreground">Thuluth script</span> in the
               Ottoman tradition.
             </p>
             <p>
-              She is also exploring how calligraphic forms can be translated from paper to
-              three-dimensional surfaces, specifically in the form of ceramics.
+              She is also exploring how calligraphic forms can be translated
+              from paper to three-dimensional surfaces, specifically in the form
+              of ceramics.
             </p>
           </div>
         </div>
