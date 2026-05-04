@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { X, ChevronLeft, ChevronRight } from "lucide-react";
 
 const works = Array.from({ length: 8 }, (_, i) => {
@@ -13,19 +13,18 @@ const works = Array.from({ length: 8 }, (_, i) => {
 });
 export function Practice() {
   const [active, setActive] = useState<number | null>(null);
-  const [visibleCount, setVisibleCount] = useState(6);
+  // const [visibleCount, setVisibleCount] = useState(6);
 
-  const [isMobile, setIsMobile] = useState(false);
+  // const [isMobile, setIsMobile] = useState(false);
 
-  useEffect(() => {
-    const check = () => setIsMobile(window.innerWidth < 768);
-    check();
+  // useEffect(() => {
+  //   const check = () => setIsMobile(window.innerWidth < 768);
+  //   check();
 
-    window.addEventListener("resize", check);
-    return () => window.removeEventListener("resize", check);
-  }, []);
+  //   window.addEventListener("resize", check);
+  //   return () => window.removeEventListener("resize", check);
+  // }, []);
 
-  const visibleWorks = isMobile ? works.slice(0, visibleCount) : works;
   return (
     <section id="practice" className="bg-secondary/40 py-32 md:py-40">
       <div className="mx-auto grid max-w-7xl gap-16 px-6 md:grid-cols-2 md:gap-20 md:px-10">
@@ -66,7 +65,7 @@ export function Practice() {
       <div className="mx-auto max-w-7xl px-6 pt-10 md:px-10">
         {/* Masonry Layout */}
         <div className="columns-1 gap-4 sm:columns-2 md:columns-3 md:gap-6">
-          {visibleWorks.map((w, i) => (
+          {works.map((w, i) => (
             <button
               key={i}
               onClick={() => setActive(i)}

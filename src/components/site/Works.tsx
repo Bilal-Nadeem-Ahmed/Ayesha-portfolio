@@ -8,7 +8,7 @@ const extensions: Record<number, string> = {
   8: "JPG",
 };
 
-const works = Array.from({ length: 22 }, (_, i) => {
+const works = Array.from({ length: 21 }, (_, i) => {
   const index = i + 1;
   const ext = extensions[index] || "jpeg";
   const name = `works_${index}`;
