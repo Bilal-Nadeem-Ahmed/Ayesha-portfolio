@@ -1,13 +1,4 @@
-import { useEffect, useState } from "react";
-
 export function Hero() {
-  const [y, setY] = useState(0);
-  useEffect(() => {
-    const onScroll = () => setY(window.scrollY);
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
-
   return (
     <section className="relative min-h-screen w-full flex items-center">
       <div className="mx-auto grid w-full max-w-7xl grid-cols-1 md:grid-cols-2 gap-12 px-6 items-center">
