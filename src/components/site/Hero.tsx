@@ -22,7 +22,8 @@ export function Hero() {
           </h1>
 
           <p className="mt-6 max-w-md text-base md:text-lg text-muted-foreground">
-            Modern Abstract Arabic Calligraphy — exploring language, form, and meaning.
+            Modern Abstract Arabic Calligraphy — exploring language, form, and
+            meaning.
           </p>
         </div>
 

@@ -1,11 +1,11 @@
-import { Navbar } from "./assets/components/site/Navbar";
+import { Navbar } from "./components/site/Navbar";
 import "./styles.css";
-import { About } from "./assets/components/site/About";
-import { Exhibitions } from "./assets/components/site/Exhibitions";
-import { Practice } from "./assets/components/site/Practice";
-import { Workshops } from "./assets/components/site/Workshops";
-import { Works } from "./assets/components/site/Works";
-import { Hero } from "./assets/components/site/Hero";
+import { About } from "./components/site/About";
+import { Exhibitions } from "./components/site/Exhibitions";
+import { Practice } from "./components/site/Practice";
+import { Workshops } from "./components/site/Workshops";
+import { Works } from "./components/site/Works";
+import { Hero } from "./components/site/Hero";
 
 function App() {
   return (
