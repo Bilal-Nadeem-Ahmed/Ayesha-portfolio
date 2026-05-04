@@ -56,7 +56,7 @@ export function Works() {
             <button
               key={i}
               onClick={() => setActive(i)}
-              className="group mb-4 w-full break-inside-avoid overflow-hidden rounded-2xl bg-muted"
+              className="relative group mb-4 w-full break-inside-avoid overflow-hidden rounded-2xl bg-muted"
             >
               <img
                 src={w.src}
@@ -130,7 +130,9 @@ export function Works() {
               <p className="text-sm opacity-60">
                 {String(active + 1).padStart(2, "0")} / {works.length}
               </p>
-              <h3 className="mt-2 text-2xl font-serif">{works[active].title}</h3>
+              <h3 className="mt-2 text-2xl font-serif">
+                {works[active].title}
+              </h3>
             </div>
           </div>
         </div>
