@@ -5,7 +5,7 @@ export function Hero() {
         {/* 📝 LEFT: Text */}
         <div className="z-10">
           <p className="mb-6 text-xs uppercase tracking-[0.3em] text-muted-foreground">
-            Hand of Ayesha
+            <a href="https://handofayesha.com">Hand of Ayesha</a>
           </p>
 
           <h1 className="text-5xl md:text-6xl lg:text-7xl leading-[1.1] tracking-tight">

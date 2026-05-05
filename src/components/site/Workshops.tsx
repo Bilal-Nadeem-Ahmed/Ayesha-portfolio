@@ -11,14 +11,20 @@ export function Workshops() {
       </div>
 
       <div className="relative z-10 mx-auto max-w-4xl px-6 py-32 text-center text-white md:py-48">
-        <p className="mb-6 text-xs uppercase tracking-wide text-white/70">Workshops</p>
+        <p className="mb-6 text-xs uppercase tracking-wide text-white/70">
+          Workshops
+        </p>
 
         <h2 className="text-4xl md:text-6xl">
-          Foundational letterforms, <em className="italic font-light">accessible</em> to all.
+          Foundational letterforms,{" "}
+          <em className="italic font-light">accessible</em> to all.
         </h2>
 
         <p className="mx-auto mt-10 max-w-2xl text-white/80 text-base md:text-lg">
-          Ayesha facilitates beginner-friendly Arabic calligraphy workshops...
+          Ayesha facilitates beginner-friendly Arabic calligraphy workshops that
+          introduce foundational letterforms through a guided, structured
+          approach. Participants are supported in creating their own finished
+          pieces, with an emphasis on accessibility and creative exploration.
         </p>
 
         <a

@@ -6,6 +6,7 @@ import { Practice } from "./components/site/Practice";
 import { Workshops } from "./components/site/Workshops";
 import { Works } from "./components/site/Works";
 import { Hero } from "./components/site/Hero";
+import { Footer } from "./components/site/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Exhibitions />
       <Practice />
       <Workshops />
+      <Footer />
     </>
   );
 }

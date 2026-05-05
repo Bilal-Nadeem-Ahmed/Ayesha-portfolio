@@ -48,6 +48,14 @@ export function Works() {
               <em className="italic font-light">Gallery</em>
             </h2>
           </div>
+          <a
+            href="https://handofayesha.com/"
+            target="_blank"
+            rel="noreferrer"
+            className="block text-xs uppercase tracking-display text-muted-foreground transition-colors hover:text-foreground"
+          >
+            Shop →
+          </a>
         </div>
 
         {/* Masonry Layout */}
